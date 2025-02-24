@@ -8,4 +8,4 @@ Removed the compiled file of the game due to diff computer need to compile again
 
 Here is the Compile code for c++: g++ -o output snakeGame.cpp
 
-
+The macos and linux user can use this game normally.
