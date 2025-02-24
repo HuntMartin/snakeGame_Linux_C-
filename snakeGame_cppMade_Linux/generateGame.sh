@@ -1,1 +1,2 @@
-g++ --version
+g++ -o snakeGame snakeGame.cpp
+./snakeGame
