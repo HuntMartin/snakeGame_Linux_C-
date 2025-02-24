@@ -1,0 +1,4 @@
+GoTo Internet sharing to enable RemoteLogin for ssh connection from vm to host, thus we can transfer the files directly from vm to host machine by using ssh username@private_ipv4 to connect and using scp-r /path/file_name hostUserName@hostIpv4_privateOne:/path/dir/ (we dun care port cuz default port is 22)
+If other machines connect to windows, wins need to use wins+R to open services.msc, if wins has openSSHserver, then start it to run and close the firewall. But if no, use wins+I go to optional features choose add other optional features and find the openSSHserver to add it.
+
+Linux uses the sudo apt-install ssh and sudo systemctl start ssh. 
