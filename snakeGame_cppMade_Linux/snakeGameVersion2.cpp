@@ -141,7 +141,7 @@ void Logic(){
                 default:
                         break;
         }
-        if(x > width + 2 || x <= 0 || y >= height || y < 0){
+        if(x >= width + 1 || x <= 0 || y >= height || y < 0){
                 overFlag = true;
         }
 
