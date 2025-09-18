@@ -1,0 +1,4 @@
+const test = 12
+async func {
+	await test < 30 ? return true : return false;
+}
